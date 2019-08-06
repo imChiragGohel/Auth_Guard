@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+        <div style="text-align:center;margin-top: 20px;">
+            <input class="form-control" type="text" #u1 /><br>
+            <input class="form-control" type="password" #p2 /><br />
+            Username :- admin<br />
+            Password :- satva1213#<br /><br />
+            <button (click)="check(u1.value, p2.value)">Login</button>
+            <br />
+            <h3>{{ msg }}</h3>
+        </div>
+    </div>
+    <div class="col-4"></div>
+</div>

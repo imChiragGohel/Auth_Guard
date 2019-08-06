@@ -1,0 +1,19 @@
+<h1>
+    Welcome to Chirag Gohel
+    <button class="btn btn-danger btn-sm float-right" (click)="logout()">Logout</button>
+</h1>
+<div class="row">
+    <div class="col-3">
+        <ul style="list-style-type: none;">
+            <li style="margin: 10px">
+                <a routerLink="chiled1">Chiled1</a>
+            </li>
+            <li style="margin: 10px">
+                <a routerLink="chiled2">Chiled2</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-9">
+        <router-outlet></router-outlet>
+    </div>
+</div>
